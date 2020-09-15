@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
   <title>Google homepage</title>
   
@@ -11,8 +12,34 @@
 
    } 
    
+   ul {
+     width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  
+  float: left;
+}
+   
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+
+
+   
   </style>
   <main>
+    <ul>
+  <li><a href="default.asp">Home</a></li>
+  <li><a href="news.asp">News</a></li>
+  <li><a href="images.asp">Images</a></li>
+  <li><a href="gmail.asp">Gmail</a></li>
+</ul>
+  
 <p>
   
 <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
@@ -22,4 +49,5 @@ alt="google logo"></a>
 <p>
   <input size="34" type="text" placeholder="Search...">
 </p>
+
 </main>
